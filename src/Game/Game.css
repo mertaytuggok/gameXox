@@ -1,0 +1,100 @@
+*{
+    font-family: 'Finger Paint';
+    font-style: normal;
+    text-align: center;
+    box-sizing: border-box;
+    
+    
+}
+.Board{
+    position: relative;
+    width: 314px;
+    height: 404px;
+    top: 228px;
+    left: 563px;
+}
+
+
+.gt {
+    position: absolute;
+    width: 254px;
+    height: 65px;
+    top: 158px;
+    left: 555px;
+
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 65px;
+    color: #0026ED;
+}
+
+
+table td {
+    background: #FFFFFF;
+    border: 10px solid #000;
+    border-radius: 10px;
+    width: 80px;
+    height: 80px;
+    
+}
+
+.Container{
+    display: flex;
+    position: absolute;
+    width: 1366px;
+    height: 768px;
+
+    top: 10%;
+    left: 15%;
+    background: #F3B18C;
+   
+    
+}
+.start {
+	width: 100px;
+	height: 100px;
+    
+    background: #FFFFFF;
+    
+    border: 10px solid #000000;
+    border-radius: 10px;
+}
+.start:hover{
+    background-color: rgb(202, 200, 200);
+}
+
+.xO{
+   
+
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 58px;
+}
+.oL{
+    color: blue;
+    font-size: 64px;
+}
+.oL:hover {
+    color: white;
+    background-color: blue;
+}
+.xL{
+    color: red;
+    font-size: 64px;
+}
+.xL:hover {
+    color: white;
+    background-color: red;
+}
+.winx{
+    border: 10px solid red;
+}
+.wino{
+    border: 10px solid blue;
+}
+
+#box{
+    position: absolute;
+    top: 210px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=Raleway&display=swap');
